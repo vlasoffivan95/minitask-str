@@ -2,8 +2,8 @@
 
 //task#1///Функция которая принимает строку и возвращает количество слов в ней.///
 function calculateWord(string) {
-    const arrayFrom = string.split(' ');
-    const newArray = arrayFrom.filter(function (arrayVar) {
+    const arrayFromWord = string.split(' ');
+    const newArray = arrayFromWord.filter(function (arrayVar) {
         return arrayVar !== ''
     });
     return newArray.length;
@@ -23,3 +23,5 @@ function findLongestWord(str) {
 };
 
 
+//console.log(calculateWord('Anton testtttt test    tetstst         try excccept   sfsdfsdfsdf'))
+//console.log(findLongestWord('turns out s bad Antonnnnn Tetst test s    sdadas  tt t t'))
